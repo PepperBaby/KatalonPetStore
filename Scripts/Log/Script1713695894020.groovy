@@ -19,16 +19,16 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.BaseUrl)
+WebUI.navigateToUrl(BaseUrl)
 
 WebUI.click(findTestObject('Object Repository/Login/Page_JPetStore Demo/a_Enter the Store'))
 
 WebUI.click(findTestObject('Object Repository/Login/Page_JPetStore Demo/a_Sign In'))
 
 WebUI.setText(findTestObject('Object Repository/Login/Page_JPetStore Demo/input_Need a user name and password_username'), 
-    GlobalVariable.username)
+    username)
 
-WebUI.setText(findTestObject('Login/Page_JPetStore Demo/input_Need a user name and password_username'), GlobalVariable.password)
+WebUI.setText(findTestObject('Login/Page_JPetStore Demo/input_Need a user name and password_username'), password)
 
 WebUI.click(findTestObject('Object Repository/Login/Page_JPetStore Demo/input_Need a user name and password_signon'))
 
