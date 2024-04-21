@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Purchase_Cat" time="54.675" tests="1" failures="0" errors="0">
+   <testsuite name="TS_Purchase_Cat" tests="1" failures="0" errors="0" time="54.675" skipped="0" timestamp="21-04-2024T16:43:25" hostname="XQ612DJ - IN3086658W1.ey.net" id="Test Suites/TS_Purchase_Cat">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\XQ612DJ\\git\\KatalonPetStoreGit\\Reports\\20240421_164227\\TS_Purchase_Cat\\20240421_164230"/>
+         <property name="logFiles" value="C:\\Users\\XQ612DJ\\git\\KatalonPetStoreGit\\Reports\\20240421_164227\\TS_Purchase_Cat\\20240421_164230\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="XQ612DJ - IN3086658W1.ey.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Edge Chromium 123"/>
+         <property name="hostAddress" value="192.168.29.106"/>
+         <property name="sessionId" value="4a23233da608093122a3d672f2119f0b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Purchase_Cat" time="54.064" classname="Test Cases/Purchase_Cat" status="PASSED">
+         <system-out><![CDATA[21-04-2024T16:43:25 - [TEST_CASE][PASSED] - Test Cases/Purchase_Cat: Test Cases/Purchase_Cat
+
+21-04-2024T16:43:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login' successfully
+
+21-04-2024T16:43:27 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+21-04-2024T16:43:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-04-2024T16:43:28 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+21-04-2024T16:43:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-04-2024T16:43:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-04-2024T16:43:34 - [TEST_STEP][PASSED] - navigateToUrl("https://petstore.octoperf.com/"): Navigate to 'https://petstore.octoperf.com/' successfully
+
+21-04-2024T16:43:36 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/' successfully
+
+21-04-2024T16:43:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PetStore/Page_JPetStore Demo/a_Enter the Store")): Object: 'Object Repository/PetStore/Page_JPetStore Demo/a_Enter the Store' is clicked on
+
+21-04-2024T16:43:37 - [MESSAGE][PASSED] - Object: 'Object Repository/PetStore/Page_JPetStore Demo/a_Enter the Store' is clicked on
+
+21-04-2024T16:43:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PetStore/Page_JPetStore Demo/a_Sign In")): Object: 'Object Repository/PetStore/Page_JPetStore Demo/a_Sign In' is clicked on
+
+21-04-2024T16:43:38 - [MESSAGE][PASSED] - Object: 'Object Repository/PetStore/Page_JPetStore Demo/a_Sign In' is clicked on
+
+21-04-2024T16:43:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PetStore/Page_JPetStore Demo/input_Need a user name and password_username"), "j2ee"): Text 'j2ee' is set on object 'Object Repository/PetStore/Page_JPetStore Demo/input_Need a user name and password_username'
+
+21-04-2024T16:43:40 - [MESSAGE][PASSED] - Text 'j2ee' is set on object 'Object Repository/PetStore/Page_JPetStore Demo/input_Need a user name and password_username'
+
+21-04-2024T16:43:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PetStore/Page_JPetStore Demo/input_Need a user name and password_signon")): Object: 'Object Repository/PetStore/Page_JPetStore Demo/input_Need a user name and password_signon' is clicked on
+
+21-04-2024T16:43:41 - [MESSAGE][PASSED] - Object: 'Object Repository/PetStore/Page_JPetStore Demo/input_Need a user name and password_signon' is clicked on
+
+21-04-2024T16:43:41 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+21-04-2024T16:43:41 - [MESSAGE][PASSED] - Wait for page load successfully
+
+21-04-2024T16:43:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login' successfully
+
+21-04-2024T16:43:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_JPetStore Demo/img")): Object: 'Object Repository/Page_JPetStore Demo/img' is clicked on
+
+21-04-2024T16:43:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/img' is clicked on
+
+21-04-2024T16:43:42 - [TEST_STEP][PASSED] - navigateToUrl("https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=CATS"): Navigate to 'https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=CATS' successfully
+
+21-04-2024T16:43:42 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=CATS' successfully
+
+21-04-2024T16:43:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_JPetStore Demo/a_FL-DLH-02")): Object: 'Object Repository/Page_JPetStore Demo/a_FL-DLH-02' is clicked on
+
+21-04-2024T16:43:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/a_FL-DLH-02' is clicked on
+
+21-04-2024T16:43:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_JPetStore Demo/a_Add to Cart")): Object: 'Object Repository/Page_JPetStore Demo/a_Add to Cart' is clicked on
+
+21-04-2024T16:43:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/a_Add to Cart' is clicked on
+
+21-04-2024T16:43:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_JPetStore Demo/a_Proceed to Checkout")): Object: 'Object Repository/Page_JPetStore Demo/a_Proceed to Checkout' is clicked on
+
+21-04-2024T16:43:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/a_Proceed to Checkout' is clicked on
+
+21-04-2024T16:43:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_JPetStore Demo/input_Ship to different address_newOrder")): Object: 'Object Repository/Page_JPetStore Demo/input_Ship to different address_newOrder' is clicked on
+
+21-04-2024T16:44:16 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@name='password']'. Please recheck the objects properties to make sure the desired element is located. 
+
+21-04-2024T16:44:16 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_JPetStore Demo/input_Ship to different address_newOrder'. Try using Self-healing.
+
+21-04-2024T16:44:16 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@name='signon']'.
+
+21-04-2024T16:44:16 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//div[@id='Catalog']/form/input'.
+
+21-04-2024T16:44:17 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/XQ612DJ/git/KatalonPetStoreGit/Reports/Self-healing/Object Repository/Page_JPetStore Demo/input_Ship to different address_newOrder_idRelative.png
+
+21-04-2024T16:44:17 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_JPetStore Demo/input_Ship to different address_newOrder' was broken. Propose an alternative one: '//div[@id='Catalog']/form/input'.
+
+21-04-2024T16:44:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/input_Ship to different address_newOrder' is clicked on
+
+21-04-2024T16:44:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_JPetStore Demo/a_Confirm")): Object: 'Object Repository/Page_JPetStore Demo/a_Confirm' is clicked on
+
+21-04-2024T16:44:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/a_Confirm' is clicked on
+
+21-04-2024T16:44:18 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_JPetStore Demo/li_Thank you, your order has been submitted"), "Thank you, your order has been submitted."): Actual text and expected text of test object 'Object Repository/Page_JPetStore Demo/li_Thank you, your order has been submitted' are matched.
+
+21-04-2024T16:44:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_JPetStore Demo/li_Thank you, your order has been submitted' are matched.
+
+21-04-2024T16:44:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_JPetStore Demo/a_Sign Out")): Object: 'Object Repository/Page_JPetStore Demo/a_Sign Out' is clicked on
+
+21-04-2024T16:44:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/a_Sign Out' is clicked on
+
+21-04-2024T16:44:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-04-2024T16:44:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-04-2024T16:43:25 - [TEST_SUITE][PASSED] - TS_Purchase_Cat: Test Cases/Purchase_Cat]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

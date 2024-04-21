@@ -19,4 +19,9 @@
       <initValue>'mohan1'</initValue>
       <name>password</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>10</initValue>
+      <name>waitForPageLoad</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Global_Login,Edge Chromium 123,,,21-04-2024 16:48:41,21-04-2024 16:49:13,31.148s,PASSED
+,,,,,,,
+Test Cases/Log-in,Edge Chromium 123,,,21-04-2024 16:48:42,21-04-2024 16:48:58,16.339s,PASSED
+"openBrowser("""")",Edge Chromium 123,,,21-04-2024 16:48:42,21-04-2024 16:48:49,6.324s,PASSED
+navigateToUrl(BaseUrl),Edge Chromium 123,,,21-04-2024 16:48:49,21-04-2024 16:48:51,2.310s,PASSED
+waitForPageLoad(waitForPageLoad),Edge Chromium 123,,,21-04-2024 16:48:51,21-04-2024 16:48:51,0.366s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_Enter the Store""))",Edge Chromium 123,,,21-04-2024 16:48:51,21-04-2024 16:48:53,1.441s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_Sign In""))",Edge Chromium 123,,,21-04-2024 16:48:53,21-04-2024 16:48:54,0.725s,PASSED
+"setText(findTestObject(""Object Repository/Page_JPetStore Demo/input_Need a user name and password_username""), username)",Edge Chromium 123,,,21-04-2024 16:48:54,21-04-2024 16:48:55,0.884s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_JPetStore Demo/input_Ship to different address_newOrder""), ""NXt0rM6HQe0="")",Edge Chromium 123,,,21-04-2024 16:48:55,21-04-2024 16:48:55,0.533s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/input_Ship to different address_newOrder""))",Edge Chromium 123,,,21-04-2024 16:48:55,21-04-2024 16:48:56,0.789s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_Sign Out""))",Edge Chromium 123,,,21-04-2024 16:48:56,21-04-2024 16:48:57,1.259s,PASSED
+closeBrowser(),Edge Chromium 123,,,21-04-2024 16:48:57,21-04-2024 16:48:58,1.063s,PASSED
+,,,,,,,
+Test Cases/Log,Edge Chromium 123,,,21-04-2024 16:48:58,21-04-2024 16:49:13,14.408s,PASSED
+"openBrowser("""")",Edge Chromium 123,,,21-04-2024 16:48:59,21-04-2024 16:49:04,5.776s,PASSED
+navigateToUrl(BaseUrl),Edge Chromium 123,,,21-04-2024 16:49:04,21-04-2024 16:49:06,1.565s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_JPetStore Demo/a_Enter the Store""))",Edge Chromium 123,,,21-04-2024 16:49:06,21-04-2024 16:49:07,1.414s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_JPetStore Demo/a_Sign In""))",Edge Chromium 123,,,21-04-2024 16:49:07,21-04-2024 16:49:08,0.769s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_JPetStore Demo/input_Need a user name and password_username""), username)",Edge Chromium 123,,,21-04-2024 16:49:08,21-04-2024 16:49:09,0.875s,PASSED
+"setText(findTestObject(""Login/Page_JPetStore Demo/input_Need a user name and password_username""), password)",Edge Chromium 123,,,21-04-2024 16:49:09,21-04-2024 16:49:10,1.121s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_JPetStore Demo/input_Need a user name and password_signon""))",Edge Chromium 123,,,21-04-2024 16:49:10,21-04-2024 16:49:11,1.131s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_JPetStore Demo/a_Sign Out""))",Edge Chromium 123,,,21-04-2024 16:49:11,21-04-2024 16:49:12,0.835s,PASSED
+closeBrowser(),Edge Chromium 123,,,21-04-2024 16:49:12,21-04-2024 16:49:13,0.560s,PASSED

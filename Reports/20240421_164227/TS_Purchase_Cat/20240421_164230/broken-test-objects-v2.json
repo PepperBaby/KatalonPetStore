@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_JPetStore Demo/input_Ship to different address_newOrder",
+      "brokenLocator": "//input[@name\u003d\u0027password\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027Catalog\u0027]/form/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240421_164227/TS_Purchase_Cat/20240421_164230/Object Repository/Page_JPetStore Demo/input_Ship to different address_newOrder_idRelative.png"
+    }
+  ]
+}

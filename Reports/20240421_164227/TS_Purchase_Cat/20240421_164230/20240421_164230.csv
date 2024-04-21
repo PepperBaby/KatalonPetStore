@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Purchase_Cat,Edge Chromium 123,,,21-04-2024 16:43:25,21-04-2024 16:44:19,54.675s,PASSED
+,,,,,,,
+Test Cases/Purchase_Cat,Edge Chromium 123,,,21-04-2024 16:43:25,21-04-2024 16:44:19,54.064s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Edge Chromium 123,,,21-04-2024 16:43:26,21-04-2024 16:43:41,15.013s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/img""))",Edge Chromium 123,,,21-04-2024 16:43:41,21-04-2024 16:43:42,0.789s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=CATS"")",Edge Chromium 123,,,21-04-2024 16:43:42,21-04-2024 16:43:42,0.239s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_FL-DLH-02""))",Edge Chromium 123,,,21-04-2024 16:43:42,21-04-2024 16:43:43,0.672s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_Add to Cart""))",Edge Chromium 123,,,21-04-2024 16:43:43,21-04-2024 16:43:44,0.634s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_Proceed to Checkout""))",Edge Chromium 123,,,21-04-2024 16:43:44,21-04-2024 16:43:44,0.659s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/input_Ship to different address_newOrder""))",Edge Chromium 123,,,21-04-2024 16:43:44,21-04-2024 16:44:17,32.647s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_Confirm""))",Edge Chromium 123,,,21-04-2024 16:44:17,21-04-2024 16:44:18,0.710s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_JPetStore Demo/li_Thank you, your order has been submitted""), ""Thank you, your order has been submitted."")",Edge Chromium 123,,,21-04-2024 16:44:18,21-04-2024 16:44:18,0.407s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_Sign Out""))",Edge Chromium 123,,,21-04-2024 16:44:18,21-04-2024 16:44:19,0.753s,PASSED
+closeBrowser(),Edge Chromium 123,,,21-04-2024 16:44:19,21-04-2024 16:44:19,0.367s,PASSED
