@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Add_Fishes_To_Cart,Edge Chromium 123,,,21-04-2024 17:37:39,21-04-2024 17:38:36,56.818s,PASSED
+,,,,,,,
+Test Cases/Add_Fish_To_Cart,Edge Chromium 123,,,21-04-2024 17:37:41,21-04-2024 17:38:36,55.555s,PASSED
+"openBrowser("""")",Edge Chromium 123,,,21-04-2024 17:37:42,21-04-2024 17:38:00,18.620s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/"")",Edge Chromium 123,,,21-04-2024 17:38:00,21-04-2024 17:38:08,7.258s,PASSED
+"click(findTestObject(""Object Repository/Add_Fish_To_Cart/Page_JPetStore Demo/a_Enter the Store""))",Edge Chromium 123,,,21-04-2024 17:38:08,21-04-2024 17:38:11,3.808s,PASSED
+"click(findTestObject(""Object Repository/Add_Fish_To_Cart/Page_JPetStore Demo/img""))",Edge Chromium 123,,,21-04-2024 17:38:11,21-04-2024 17:38:13,1.634s,PASSED
+"click(findTestObject(""Object Repository/Add_Fish_To_Cart/Page_JPetStore Demo/a_FI-SW-01""))",Edge Chromium 123,,,21-04-2024 17:38:13,21-04-2024 17:38:21,8.368s,PASSED
+"click(findTestObject(""Object Repository/Add_Fish_To_Cart/Page_JPetStore Demo/a_Add to Cart""))",Edge Chromium 123,,,21-04-2024 17:38:21,21-04-2024 17:38:24,2.203s,PASSED
+"click(findTestObject(""Object Repository/Add_Fish_To_Cart/Page_JPetStore Demo/img""))",Edge Chromium 123,,,21-04-2024 17:38:24,21-04-2024 17:38:25,1.387s,PASSED
+"click(findTestObject(""Object Repository/Add_Fish_To_Cart/Page_JPetStore Demo/a_FI-FW-02""))",Edge Chromium 123,,,21-04-2024 17:38:25,21-04-2024 17:38:27,1.823s,PASSED
+"click(findTestObject(""Object Repository/Add_Fish_To_Cart/Page_JPetStore Demo/a_Add to Cart_1""))",Edge Chromium 123,,,21-04-2024 17:38:27,21-04-2024 17:38:28,1.258s,PASSED
+closeBrowser(),Edge Chromium 123,,,21-04-2024 17:38:28,21-04-2024 17:38:36,8.130s,PASSED

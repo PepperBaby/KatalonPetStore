@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Add_Bird_To_Cart,Edge Chromium 123,,,21-04-2024 17:38:00,21-04-2024 17:38:31,30.863s,PASSED
+,,,,,,,
+Test Cases/Add_Bird_To_Cart,Edge Chromium 123,,,21-04-2024 17:38:02,21-04-2024 17:38:31,28.833s,PASSED
+"openBrowser("""")",Edge Chromium 123,,,21-04-2024 17:38:06,21-04-2024 17:38:20,13.549s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/"")",Edge Chromium 123,,,21-04-2024 17:38:20,21-04-2024 17:38:22,2.833s,PASSED
+"click(findTestObject(""Object Repository/Add_Bird_To_Cart/Page_JPetStore Demo/a_Enter the Store""))",Edge Chromium 123,,,21-04-2024 17:38:22,21-04-2024 17:38:25,3.035s,PASSED
+"click(findTestObject(""Object Repository/Add_Bird_To_Cart/Page_JPetStore Demo/img""))",Edge Chromium 123,,,21-04-2024 17:38:25,21-04-2024 17:38:27,1.363s,PASSED
+"click(findTestObject(""Object Repository/Add_Bird_To_Cart/Page_JPetStore Demo/a_AV-CB-01""))",Edge Chromium 123,,,21-04-2024 17:38:27,21-04-2024 17:38:28,1.007s,PASSED
+"click(findTestObject(""Object Repository/Add_Bird_To_Cart/Page_JPetStore Demo/a_Add to Cart""))",Edge Chromium 123,,,21-04-2024 17:38:28,21-04-2024 17:38:29,1.254s,PASSED
+closeBrowser(),Edge Chromium 123,,,21-04-2024 17:38:29,21-04-2024 17:38:31,2.115s,PASSED
