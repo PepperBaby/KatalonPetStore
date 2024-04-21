@@ -21,20 +21,18 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.BaseUrl)
 
-WebUI.waitForPageLoad(GlobalVariable.waitForPageLoad)
+WebUI.click(findTestObject('Object Repository/Login/Page_JPetStore Demo/a_Enter the Store'))
 
-WebUI.click(findTestObject('Object Repository/Page_JPetStore Demo/a_Enter the Store'))
+WebUI.click(findTestObject('Object Repository/Login/Page_JPetStore Demo/a_Sign In'))
 
-WebUI.click(findTestObject('Object Repository/Page_JPetStore Demo/a_Sign In'))
+WebUI.setText(findTestObject('Object Repository/Login/Page_JPetStore Demo/input_Need a user name and password_username'), 
+    GlobalVariable.username)
 
-WebUI.setText(findTestObject('Object Repository/Page_JPetStore Demo/input_Need a user name and password_username'), GlobalVariable.username)
+WebUI.setText(findTestObject('Login/Page_JPetStore Demo/input_Need a user name and password_username'), GlobalVariable.password)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_JPetStore Demo/input_Ship to different address_newOrder'), 
-    'NXt0rM6HQe0=')
+WebUI.click(findTestObject('Object Repository/Login/Page_JPetStore Demo/input_Need a user name and password_signon'))
 
-WebUI.click(findTestObject('Object Repository/Page_JPetStore Demo/input_Ship to different address_newOrder'))
-
-WebUI.click(findTestObject('Object Repository/Page_JPetStore Demo/a_Sign Out'))
+WebUI.click(findTestObject('Object Repository/Login/Page_JPetStore Demo/a_Sign Out'))
 
 WebUI.closeBrowser()
 

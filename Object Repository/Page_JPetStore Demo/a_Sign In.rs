@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Sign Out</name>
+   <name>a_Sign In</name>
    <tag></tag>
-   <elementGuidId>9569f207-f6ac-4e2b-91c1-47368ef698e5</elementGuidId>
+   <elementGuidId>64b17cfc-1d06-47f6-a578-7d80b10e9613</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -18,7 +18,7 @@
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot;Sign Out&quot;i]</value>
+         <value>internal:role=link[name=&quot;Sign In&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,23 +29,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>97fd9fd9-0480-4a61-b620-9ad2c274faf5</webElementGuid>
+      <webElementGuid>ee806587-0e69-4571-8d36-aaf32b3d0198</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/actions/Account.action?signoff=</value>
-      <webElementGuid>749076d5-278b-485b-8062-5007766ae231</webElementGuid>
+      <value>/actions/Account.action;jsessionid=C51C572C9786D9B1DE081CED43960E43?signonForm=</value>
+      <webElementGuid>ea1bbb25-9943-4eec-8b28-a269dd4105cd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Sign Out</value>
-      <webElementGuid>4e4fe252-f5a9-443a-af5c-80a53f3b01dd</webElementGuid>
+      <value>Sign In</value>
+      <webElementGuid>b9555239-326a-4cb6-8a52-ee1282607869</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;MenuContent&quot;)/a[2]</value>
-      <webElementGuid>b6197365-37e5-4a6f-bfb4-561a1ecc5c93</webElementGuid>
+      <webElementGuid>4d6ed33f-69b3-4dd0-ab8c-60aae663b016</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,47 +61,39 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='MenuContent']/a[2]</value>
-      <webElementGuid>38dc3376-1c2a-4c7e-9a28-d3525850c2bd</webElementGuid>
+      <webElementGuid>77cd0dbf-ea33-42f4-831f-e92237a7ccf5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Sign Out')]</value>
-      <webElementGuid>d7bfc5d3-ab1e-4ea0-a492-c06544bf5c23</webElementGuid>
+      <value>//a[contains(text(),'Sign In')]</value>
+      <webElementGuid>7a01ec9e-c88d-41f3-9bc8-7aea67472614</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Account'])[1]/preceding::a[1]</value>
-      <webElementGuid>87f769c1-8909-4e1d-bee6-f6417c53e8c2</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='?'])[1]/preceding::a[1]</value>
+      <webElementGuid>433e2276-a450-4178-abdd-1ae34934ab1c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='?'])[1]/preceding::a[2]</value>
-      <webElementGuid>9886bf62-358a-40b1-99db-361a6c7942f4</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Sign Out']/parent::*</value>
-      <webElementGuid>949bb3af-ca7b-4cc6-bf1a-ae9571278e4b</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Sign In']/parent::*</value>
+      <webElementGuid>a9a3225f-2aa9-4b2a-81e0-4b93290f23b8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/actions/Account.action?signoff=')]</value>
-      <webElementGuid>7992eed9-717c-42b0-8999-f95e62298583</webElementGuid>
+      <value>//a[contains(@href, '/actions/Account.action;jsessionid=C51C572C9786D9B1DE081CED43960E43?signonForm=')]</value>
+      <webElementGuid>e4856c81-3192-4303-8dcb-a68536d6d26a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,14 +101,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[2]</value>
-      <webElementGuid>61cd474c-bce9-4261-b8ab-594375557b64</webElementGuid>
+      <webElementGuid>00ad0bdd-ce64-4781-a884-ca2e6c9650f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '/actions/Account.action?signoff=' and (text() = 'Sign Out' or . = 'Sign Out')]</value>
-      <webElementGuid>81e0bf18-df64-476a-8a93-689fb84a4781</webElementGuid>
+      <value>//a[@href = '/actions/Account.action;jsessionid=C51C572C9786D9B1DE081CED43960E43?signonForm=' and (text() = 'Sign In' or . = 'Sign In')]</value>
+      <webElementGuid>761e7a37-d8ee-4634-b647-89369f2c1b23</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

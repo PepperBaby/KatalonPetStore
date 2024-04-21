@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Purchase_Cat,Edge Chromium 123,,,21-04-2024 15:49:21,21-04-2024 15:49:46,24.427s,PASSED
+,,,,,,,
+Test Cases/Purchase_Cat,Edge Chromium 123,,,21-04-2024 15:49:21,21-04-2024 15:49:46,24.074s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Edge Chromium 123,,,21-04-2024 15:49:22,21-04-2024 15:49:38,15.573s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/img""))",Edge Chromium 123,,,21-04-2024 15:49:38,21-04-2024 15:49:39,1.277s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=CATS"")",Edge Chromium 123,,,21-04-2024 15:49:39,21-04-2024 15:49:39,0.329s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_FL-DLH-02""))",Edge Chromium 123,,,21-04-2024 15:49:39,21-04-2024 15:49:40,0.936s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_Add to Cart""))",Edge Chromium 123,,,21-04-2024 15:49:40,21-04-2024 15:49:41,1.089s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_Proceed to Checkout""))",Edge Chromium 123,,,21-04-2024 15:49:41,21-04-2024 15:49:42,0.778s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/input_Ship to different address_newOrder""))",Edge Chromium 123,,,21-04-2024 15:49:42,21-04-2024 15:49:43,0.916s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_Confirm""))",Edge Chromium 123,,,21-04-2024 15:49:43,21-04-2024 15:49:44,0.738s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_JPetStore Demo/li_Thank you, your order has been submitted""), ""Thank you, your order has been submitted."")",Edge Chromium 123,,,21-04-2024 15:49:44,21-04-2024 15:49:44,0.488s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_Sign Out""))",Edge Chromium 123,,,21-04-2024 15:49:44,21-04-2024 15:49:45,0.817s,PASSED
+closeBrowser(),Edge Chromium 123,,,21-04-2024 15:49:45,21-04-2024 15:49:46,0.588s,PASSED

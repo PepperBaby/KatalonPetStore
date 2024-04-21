@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Sign Out</name>
+   <name>a_RP-SN-01</name>
    <tag></tag>
-   <elementGuidId>9569f207-f6ac-4e2b-91c1-47368ef698e5</elementGuidId>
+   <elementGuidId>c52afff8-6af5-45fc-bfbd-ac85528884ed</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='MenuContent']/a[2]</value>
+         <value>//div[@id='Catalog']/table/tbody/tr[2]/td/a</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>a:nth-of-type(2)</value>
+         <value>td > a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot;Sign Out&quot;i]</value>
+         <value>internal:role=link[name=&quot;RP-SN-01&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,94 +29,110 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>97fd9fd9-0480-4a61-b620-9ad2c274faf5</webElementGuid>
+      <webElementGuid>8e631015-b586-44a8-b589-db925e1ff7cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/actions/Account.action?signoff=</value>
-      <webElementGuid>749076d5-278b-485b-8062-5007766ae231</webElementGuid>
+      <value>/actions/Catalog.action?viewProduct=&amp;productId=RP-SN-01</value>
+      <webElementGuid>81d5ab17-204a-47b6-b676-98aae7303da3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Sign Out</value>
-      <webElementGuid>4e4fe252-f5a9-443a-af5c-80a53f3b01dd</webElementGuid>
+      <value>RP-SN-01</value>
+      <webElementGuid>272a3c69-1294-4aa9-aaf2-74f6ac0eb672</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;MenuContent&quot;)/a[2]</value>
-      <webElementGuid>b6197365-37e5-4a6f-bfb4-561a1ecc5c93</webElementGuid>
+      <value>id(&quot;Catalog&quot;)/table[1]/tbody[1]/tr[2]/td[1]/a[1]</value>
+      <webElementGuid>d6d83e09-2dc4-4463-bff4-6f8a65b31adc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='MenuContent']/a[2]</value>
-      <webElementGuid>38dc3376-1c2a-4c7e-9a28-d3525850c2bd</webElementGuid>
+      <value>//div[@id='Catalog']/table/tbody/tr[2]/td/a</value>
+      <webElementGuid>6a696da3-7bcb-48ec-9ce6-db81e34ef28e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Sign Out')]</value>
-      <webElementGuid>d7bfc5d3-ab1e-4ea0-a492-c06544bf5c23</webElementGuid>
+      <value>//a[contains(text(),'RP-SN-01')]</value>
+      <webElementGuid>acaa5117-c2ae-4b5d-acb7-705f971a9f2f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Account'])[1]/preceding::a[1]</value>
-      <webElementGuid>87f769c1-8909-4e1d-bee6-f6417c53e8c2</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Name'])[1]/following::a[1]</value>
+      <webElementGuid>d30d17b1-ae22-4530-b8d2-21c774343cf2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='?'])[1]/preceding::a[2]</value>
-      <webElementGuid>9886bf62-358a-40b1-99db-361a6c7942f4</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Product ID'])[1]/following::a[1]</value>
+      <webElementGuid>f1c6a97c-3c30-4270-a13b-f457e48010cf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Sign Out']/parent::*</value>
-      <webElementGuid>949bb3af-ca7b-4cc6-bf1a-ae9571278e4b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rattlesnake'])[1]/preceding::a[1]</value>
+      <webElementGuid>23f2bbad-6c15-4ec6-aa6a-8e15180b6f70</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='RP-LI-02'])[1]/preceding::a[1]</value>
+      <webElementGuid>5ca888ba-a05d-4bbd-9742-79dc8d19ed1b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='RP-SN-01']/parent::*</value>
+      <webElementGuid>10af21fc-b40e-42da-ae08-e95e1d323dcd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/actions/Account.action?signoff=')]</value>
-      <webElementGuid>7992eed9-717c-42b0-8999-f95e62298583</webElementGuid>
+      <value>//a[contains(@href, '/actions/Catalog.action?viewProduct=&amp;productId=RP-SN-01')]</value>
+      <webElementGuid>b4af6fb5-b59d-4b1e-af20-6d85cc9e4286</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//a[2]</value>
-      <webElementGuid>61cd474c-bce9-4261-b8ab-594375557b64</webElementGuid>
+      <value>//td/a</value>
+      <webElementGuid>100de4f5-a481-41c3-a768-7ebdb2929457</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '/actions/Account.action?signoff=' and (text() = 'Sign Out' or . = 'Sign Out')]</value>
-      <webElementGuid>81e0bf18-df64-476a-8a93-689fb84a4781</webElementGuid>
+      <value>//a[@href = '/actions/Catalog.action?viewProduct=&amp;productId=RP-SN-01' and (text() = 'RP-SN-01' or . = 'RP-SN-01')]</value>
+      <webElementGuid>189c01a9-aa57-4847-a5fe-c6d68f5a40f2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Sign Out</name>
+   <name>a_Enter the Store</name>
    <tag></tag>
-   <elementGuidId>9569f207-f6ac-4e2b-91c1-47368ef698e5</elementGuidId>
+   <elementGuidId>c5f89c11-9c9f-4ad4-abaa-13488988d77e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='MenuContent']/a[2]</value>
+         <value>//div[@id='Content']/p/a</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>a:nth-of-type(2)</value>
+         <value>a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot;Sign Out&quot;i]</value>
+         <value>internal:role=link[name=&quot;Enter the Store&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,94 +29,94 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>97fd9fd9-0480-4a61-b620-9ad2c274faf5</webElementGuid>
+      <webElementGuid>cce268d6-f933-424c-9a23-3f63bc19250b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/actions/Account.action?signoff=</value>
-      <webElementGuid>749076d5-278b-485b-8062-5007766ae231</webElementGuid>
+      <value>actions/Catalog.action</value>
+      <webElementGuid>ecc6e11f-6de1-455a-8526-771525c2f84e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Sign Out</value>
-      <webElementGuid>4e4fe252-f5a9-443a-af5c-80a53f3b01dd</webElementGuid>
+      <value>Enter the Store</value>
+      <webElementGuid>ff7a03f4-64a1-4aab-8fe1-7e907694dcc3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;MenuContent&quot;)/a[2]</value>
-      <webElementGuid>b6197365-37e5-4a6f-bfb4-561a1ecc5c93</webElementGuid>
+      <value>id(&quot;Content&quot;)/p[1]/a[1]</value>
+      <webElementGuid>0676d33d-d2ec-406d-94ff-bd9f906504fc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='MenuContent']/a[2]</value>
-      <webElementGuid>38dc3376-1c2a-4c7e-9a28-d3525850c2bd</webElementGuid>
+      <value>//div[@id='Content']/p/a</value>
+      <webElementGuid>fce3bd00-5b28-495b-81a0-e9005bf40026</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Sign Out')]</value>
-      <webElementGuid>d7bfc5d3-ab1e-4ea0-a492-c06544bf5c23</webElementGuid>
+      <value>//a[contains(text(),'Enter the Store')]</value>
+      <webElementGuid>c7ed1ca1-3f9e-4c3c-99b9-7c2947a3e246</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Account'])[1]/preceding::a[1]</value>
-      <webElementGuid>87f769c1-8909-4e1d-bee6-f6417c53e8c2</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Welcome to JPetStore 6'])[1]/following::a[1]</value>
+      <webElementGuid>b40e8625-9edf-414c-874d-e35b0a6134b8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='?'])[1]/preceding::a[2]</value>
-      <webElementGuid>9886bf62-358a-40b1-99db-361a6c7942f4</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Copyright www.mybatis.org'])[1]/preceding::a[1]</value>
+      <webElementGuid>be3c449f-9f9b-43dd-9113-440a2e7a7757</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Sign Out']/parent::*</value>
-      <webElementGuid>949bb3af-ca7b-4cc6-bf1a-ae9571278e4b</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Enter the Store']/parent::*</value>
+      <webElementGuid>f8931838-f220-4ec6-82eb-f1727b0e845b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/actions/Account.action?signoff=')]</value>
-      <webElementGuid>7992eed9-717c-42b0-8999-f95e62298583</webElementGuid>
+      <value>//a[contains(@href, 'actions/Catalog.action')]</value>
+      <webElementGuid>1caf56d8-dc1c-48f7-a9ac-d993acb2adf6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//a[2]</value>
-      <webElementGuid>61cd474c-bce9-4261-b8ab-594375557b64</webElementGuid>
+      <value>//a</value>
+      <webElementGuid>5dfec623-e2ff-4810-a850-4ab15d3fa10d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '/actions/Account.action?signoff=' and (text() = 'Sign Out' or . = 'Sign Out')]</value>
-      <webElementGuid>81e0bf18-df64-476a-8a93-689fb84a4781</webElementGuid>
+      <value>//a[@href = 'actions/Catalog.action' and (text() = 'Enter the Store' or . = 'Enter the Store')]</value>
+      <webElementGuid>47892e29-dd4e-4cdb-8f1f-6864fc44f6b2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

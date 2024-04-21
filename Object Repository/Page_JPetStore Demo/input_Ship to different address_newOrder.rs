@@ -6,19 +6,19 @@
    <elementGuidId>ba06d661-b8bb-48af-bba5-fb43e3cb3686</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@name='newOrder']</value>
+         <key>CSS</key>
+         <value>input[name=&quot;signon&quot;]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>input[name=&quot;newOrder&quot;]</value>
+         <key>XPATH</key>
+         <value>//input[@name='password']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Continue&quot;i]</value>
+         <value>internal:role=button[name=&quot;Login&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,15 +29,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>64811c33-7cd9-464f-ac0c-b00c68272404</webElementGuid>
+      <webElementGuid>518b2713-6eb2-4ddc-92ae-76bfc9be48bd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>newOrder</value>
-      <webElementGuid>82d9f9a2-5b7f-4a23-9c13-d06db9ebebef</webElementGuid>
+      <value>signon</value>
+      <webElementGuid>31351365-d5ca-4e15-8cc4-ff35ff2876da</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,15 +45,15 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>6ff2d9f1-5426-4f40-8920-e656038c2a47</webElementGuid>
+      <webElementGuid>dfd8130d-881f-4dce-8e14-11a4ea95c31b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>Continue</value>
-      <webElementGuid>c6a46e4b-ae6d-40df-a125-3d580f7fa0f2</webElementGuid>
+      <value>Login</value>
+      <webElementGuid>1aa7e718-10c8-4e8c-8c33-390fa589c6b8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,15 +61,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;Catalog&quot;)/form[1]/input[1]</value>
-      <webElementGuid>b4fcfd7c-e058-43a8-af7a-74fc3a323ffc</webElementGuid>
+      <webElementGuid>81669334-ef4b-418d-b706-7319cd59eec1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='newOrder']</value>
-      <webElementGuid>33a03550-d83c-40bc-987c-92f64d47c45f</webElementGuid>
+      <value>//input[@name='signon']</value>
+      <webElementGuid>29cbe264-283d-433b-b4bf-4845bcc9dac4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='Catalog']/form/input</value>
-      <webElementGuid>e22ab046-50f0-455e-bbd2-e433f996b7e5</webElementGuid>
+      <webElementGuid>bb450f44-9180-490e-97cc-77efbb9c4336</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,55 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/form/input</value>
-      <webElementGuid>df904653-6331-429f-8f75-99d25644979e</webElementGuid>
+      <webElementGuid>4e4d4655-7adc-4184-ae1a-12008b476e87</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@name = 'signon' and @type = 'submit']</value>
+      <webElementGuid>ca5294d6-1f2f-44fd-99b7-74cff196c90f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@name='password']</value>
+      <webElementGuid>2334cc2c-cc63-4bab-a774-1c94f2a8d024</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='Catalog']/form/p[2]/input[2]</value>
+      <webElementGuid>79db59ad-2880-4ae5-9990-5439244c7108</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p[2]/input[2]</value>
+      <webElementGuid>8591d8b4-4346-461a-9b6c-c704d4cb4296</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@name = 'password' and @type = 'password']</value>
+      <webElementGuid>d2b26b61-fb35-4ecb-8d9b-3469effef02c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@name='newOrder']</value>
+      <webElementGuid>e79360e0-ca2f-40e6-9e55-5f2450cfbec8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +141,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@name = 'newOrder' and @type = 'submit']</value>
-      <webElementGuid>7168c2b5-cde7-4713-8ea8-02ffc55a1d38</webElementGuid>
+      <webElementGuid>2a39915b-f3fb-494f-99ec-705dfcb7b1cc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

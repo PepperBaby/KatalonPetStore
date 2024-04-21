@@ -3,7 +3,7 @@
    <description></description>
    <name>a_Sign Out</name>
    <tag></tag>
-   <elementGuidId>9569f207-f6ac-4e2b-91c1-47368ef698e5</elementGuidId>
+   <elementGuidId>32461b07-064e-4e98-a5df-54d17428ca15</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>97fd9fd9-0480-4a61-b620-9ad2c274faf5</webElementGuid>
+      <webElementGuid>47bf140c-8198-4702-8389-7373a2696ba1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/actions/Account.action?signoff=</value>
-      <webElementGuid>749076d5-278b-485b-8062-5007766ae231</webElementGuid>
+      <webElementGuid>dde842be-b902-4658-9966-db3c764304d4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Sign Out</value>
-      <webElementGuid>4e4fe252-f5a9-443a-af5c-80a53f3b01dd</webElementGuid>
+      <webElementGuid>5f312d97-e2d6-4121-b27e-5e4441e1f3af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;MenuContent&quot;)/a[2]</value>
-      <webElementGuid>b6197365-37e5-4a6f-bfb4-561a1ecc5c93</webElementGuid>
+      <webElementGuid>2d507265-02a0-448e-ad66-f0f034d505f1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='MenuContent']/a[2]</value>
-      <webElementGuid>38dc3376-1c2a-4c7e-9a28-d3525850c2bd</webElementGuid>
+      <webElementGuid>bc51777d-c730-4d4c-bd77-c9f8647be40c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Sign Out')]</value>
-      <webElementGuid>d7bfc5d3-ab1e-4ea0-a492-c06544bf5c23</webElementGuid>
+      <webElementGuid>4bb34979-6532-4707-82f4-2fab74c1fa19</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='My Account'])[1]/preceding::a[1]</value>
-      <webElementGuid>87f769c1-8909-4e1d-bee6-f6417c53e8c2</webElementGuid>
+      <webElementGuid>e106baf3-a9b9-41b6-a3e8-a9e799fa3cac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='?'])[1]/preceding::a[2]</value>
-      <webElementGuid>9886bf62-358a-40b1-99db-361a6c7942f4</webElementGuid>
+      <webElementGuid>b292eed4-844b-4dd4-a9f5-5fb0c283087f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Sign Out']/parent::*</value>
-      <webElementGuid>949bb3af-ca7b-4cc6-bf1a-ae9571278e4b</webElementGuid>
+      <webElementGuid>27039f45-cdec-44bd-b6fa-e389e500e054</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/actions/Account.action?signoff=')]</value>
-      <webElementGuid>7992eed9-717c-42b0-8999-f95e62298583</webElementGuid>
+      <webElementGuid>1d3e10e2-3785-4b02-aba0-8aaacccd6c09</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[2]</value>
-      <webElementGuid>61cd474c-bce9-4261-b8ab-594375557b64</webElementGuid>
+      <webElementGuid>085426e6-cd76-4d98-9296-5692b86ea094</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/actions/Account.action?signoff=' and (text() = 'Sign Out' or . = 'Sign Out')]</value>
-      <webElementGuid>81e0bf18-df64-476a-8a93-689fb84a4781</webElementGuid>
+      <webElementGuid>2f9cfa17-1de3-4d96-8da4-cb58507f21de</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

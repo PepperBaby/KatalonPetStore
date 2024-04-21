@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Purchase_Cat,Edge Chromium 123,,,21-04-2024 15:51:12,21-04-2024 15:51:39,27.352s,PASSED
+,,,,,,,
+Test Cases/Purchase_Cat,Edge Chromium 123,,,21-04-2024 15:51:12,21-04-2024 15:51:39,27.001s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Edge Chromium 123,,,21-04-2024 15:51:13,21-04-2024 15:51:31,17.764s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/img""))",Edge Chromium 123,,,21-04-2024 15:51:31,21-04-2024 15:51:32,0.892s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=CATS"")",Edge Chromium 123,,,21-04-2024 15:51:32,21-04-2024 15:51:32,0.283s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_FL-DLH-02""))",Edge Chromium 123,,,21-04-2024 15:51:32,21-04-2024 15:51:33,0.881s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_Add to Cart""))",Edge Chromium 123,,,21-04-2024 15:51:33,21-04-2024 15:51:34,0.844s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_Proceed to Checkout""))",Edge Chromium 123,,,21-04-2024 15:51:34,21-04-2024 15:51:35,0.855s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/input_Ship to different address_newOrder""))",Edge Chromium 123,,,21-04-2024 15:51:35,21-04-2024 15:51:36,0.987s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_Confirm""))",Edge Chromium 123,,,21-04-2024 15:51:36,21-04-2024 15:51:37,1.023s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_JPetStore Demo/li_Thank you, your order has been submitted""), ""Thank you, your order has been submitted."")",Edge Chromium 123,,,21-04-2024 15:51:37,21-04-2024 15:51:37,0.563s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_Sign Out""))",Edge Chromium 123,,,21-04-2024 15:51:37,21-04-2024 15:51:38,0.901s,PASSED
+closeBrowser(),Edge Chromium 123,,,21-04-2024 15:51:38,21-04-2024 15:51:39,1.124s,PASSED
