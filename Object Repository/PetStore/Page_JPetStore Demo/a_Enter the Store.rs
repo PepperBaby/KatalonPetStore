@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Enter the Store</name>
+   <tag></tag>
+   <elementGuidId>25ab8061-1dd8-478f-9ab4-4cbeccc8d2db</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='Content']/p/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Enter the Store&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>241ad5ec-37dd-4a1e-bcbf-aa8b83b121c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>actions/Catalog.action</value>
+      <webElementGuid>470efd94-536e-4d08-96e7-2d1244859eff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Enter the Store</value>
+      <webElementGuid>eb47ac6b-b670-411c-9688-be7c2f0b2c3e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Content&quot;)/p[1]/a[1]</value>
+      <webElementGuid>ad40bb2c-d75b-42a9-93d0-ec448d20673e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='Content']/p/a</value>
+      <webElementGuid>895a689a-9c2e-4733-a4fe-ce56425e367c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Enter the Store')]</value>
+      <webElementGuid>923e1776-37c6-4ef9-8f38-8024e167c505</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Welcome to JPetStore 6'])[1]/following::a[1]</value>
+      <webElementGuid>b0933150-7e58-49fd-86f4-8e178ebdf25c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Copyright www.mybatis.org'])[1]/preceding::a[1]</value>
+      <webElementGuid>abed6965-3c22-4238-b591-59377c8c0cff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Enter the Store']/parent::*</value>
+      <webElementGuid>c8dcee78-2f5d-4e60-886b-1d703d70119b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'actions/Catalog.action')]</value>
+      <webElementGuid>ac0463ab-66f4-4458-adda-d7f8e089a07f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a</value>
+      <webElementGuid>ea9afbd6-f7df-4a1c-83fa-14b5ad044be9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'actions/Catalog.action' and (text() = 'Enter the Store' or . = 'Enter the Store')]</value>
+      <webElementGuid>6ed980ec-49b9-4213-8fbe-c595aa0703d0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
