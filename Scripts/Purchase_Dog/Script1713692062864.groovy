@@ -17,16 +17,26 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://petstore.octoperf.com/')
+WebUI.click(findTestObject('Object Repository/Page_JPetStore Demo/img'))
 
-WebUI.click(findTestObject('Object Repository/PetStore/Page_JPetStore Demo/a_Enter the Store'))
+WebUI.navigateToUrl('https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=DOGS')
 
-WebUI.click(findTestObject('Object Repository/PetStore/Page_JPetStore Demo/a_Sign In'))
+WebUI.click(findTestObject('Object Repository/Page_JPetStore Demo/a_K9-RT-01'))
 
-WebUI.setText(findTestObject('Object Repository/PetStore/Page_JPetStore Demo/input_Need a user name and password_username'), 
-    'j2ee')
+WebUI.click(findTestObject('Object Repository/Page_JPetStore Demo/a_Add to Cart'))
 
-WebUI.click(findTestObject('Object Repository/PetStore/Page_JPetStore Demo/input_Need a user name and password_signon'))
+WebUI.click(findTestObject('Object Repository/Page_JPetStore Demo/a_Proceed to Checkout'))
+
+WebUI.click(findTestObject('Object Repository/Page_JPetStore Demo/input_Ship to different address_newOrder'))
+
+WebUI.click(findTestObject('Object Repository/Page_JPetStore Demo/a_Confirm'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_JPetStore Demo/li_Thank you, your order has been submitted'), 
+    'Thank you, your order has been submitted.')
+
+WebUI.click(findTestObject('Object Repository/Page_JPetStore Demo/a_Sign Out'))
+
+WebUI.closeBrowser()
 
