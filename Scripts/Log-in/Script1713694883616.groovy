@@ -19,16 +19,20 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://petstore.octoperf.com/')
+WebUI.navigateToUrl('GlobalVariable.BaseUrl')
 
-WebUI.click(findTestObject('Object Repository/PetStore/Page_JPetStore Demo/a_Enter the Store'))
+WebUI.click(findTestObject('Object Repository/Page_JPetStore Demo/a_Enter the Store'))
 
-WebUI.click(findTestObject('Object Repository/PetStore/Page_JPetStore Demo/a_Sign In'))
+WebUI.click(findTestObject('Object Repository/Page_JPetStore Demo/a_Sign In'))
 
-WebUI.setText(findTestObject('Object Repository/PetStore/Page_JPetStore Demo/input_Need a user name and password_username'), 
-    'j2ee')
+WebUI.setText(findTestObject('Object Repository/Page_JPetStore Demo/input_Need a user name and password_username'), 'GlobalVariable.username')
 
-WebUI.click(findTestObject('Object Repository/PetStore/Page_JPetStore Demo/input_Need a user name and password_signon'))
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_JPetStore Demo/input_Ship to different address_newOrder'), 
+    'NXt0rM6HQe0=')
 
-WebUI.waitForPageLoad(10)
+WebUI.click(findTestObject('Object Repository/Page_JPetStore Demo/input_Ship to different address_newOrder'))
+
+WebUI.click(findTestObject('Object Repository/Page_JPetStore Demo/a_Sign Out'))
+
+WebUI.closeBrowser()
 

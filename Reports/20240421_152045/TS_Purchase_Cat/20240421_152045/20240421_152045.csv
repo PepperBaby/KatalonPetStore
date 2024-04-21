@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Purchase_Cat,Edge Chromium 123,,,21-04-2024 15:20:51,21-04-2024 15:21:19,27.970s,PASSED
+,,,,,,,
+Test Cases/Purchase_Cat,Edge Chromium 123,,,21-04-2024 15:20:52,21-04-2024 15:21:19,27.562s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Edge Chromium 123,,,21-04-2024 15:20:52,21-04-2024 15:21:04,11.832s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Edge Chromium 123,,,21-04-2024 15:21:04,21-04-2024 15:21:13,9.493s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/img""))",Edge Chromium 123,,,21-04-2024 15:21:13,21-04-2024 15:21:14,0.666s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=CATS"")",Edge Chromium 123,,,21-04-2024 15:21:14,21-04-2024 15:21:14,0.253s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_FL-DLH-02""))",Edge Chromium 123,,,21-04-2024 15:21:14,21-04-2024 15:21:15,0.757s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_Add to Cart""))",Edge Chromium 123,,,21-04-2024 15:21:15,21-04-2024 15:21:16,0.654s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_Proceed to Checkout""))",Edge Chromium 123,,,21-04-2024 15:21:16,21-04-2024 15:21:16,0.596s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/input_Ship to different address_newOrder""))",Edge Chromium 123,,,21-04-2024 15:21:16,21-04-2024 15:21:17,0.628s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_Confirm""))",Edge Chromium 123,,,21-04-2024 15:21:17,21-04-2024 15:21:18,0.614s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_JPetStore Demo/li_Thank you, your order has been submitted""), ""Thank you, your order has been submitted."")",Edge Chromium 123,,,21-04-2024 15:21:18,21-04-2024 15:21:18,0.376s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_Sign Out""))",Edge Chromium 123,,,21-04-2024 15:21:18,21-04-2024 15:21:19,0.727s,PASSED
+closeBrowser(),Edge Chromium 123,,,21-04-2024 15:21:19,21-04-2024 15:21:19,0.360s,PASSED
