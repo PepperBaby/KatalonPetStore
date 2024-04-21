@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Purchase_Dog,Edge Chromium 123,,,21-04-2024 15:09:38,21-04-2024 15:09:56,18.390s,PASSED
+,,,,,,,
+Test Cases/Purchase_Dog,Edge Chromium 123,,,21-04-2024 15:09:38,21-04-2024 15:09:56,18.078s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Edge Chromium 123,,,21-04-2024 15:09:39,21-04-2024 15:09:50,11.266s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/img""))",Edge Chromium 123,,,21-04-2024 15:09:50,21-04-2024 15:09:50,0.578s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=DOGS"")",Edge Chromium 123,,,21-04-2024 15:09:50,21-04-2024 15:09:51,0.201s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_K9-RT-01""))",Edge Chromium 123,,,21-04-2024 15:09:51,21-04-2024 15:09:51,0.591s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_Add to Cart""))",Edge Chromium 123,,,21-04-2024 15:09:51,21-04-2024 15:09:52,0.596s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_Proceed to Checkout""))",Edge Chromium 123,,,21-04-2024 15:09:52,21-04-2024 15:09:52,0.611s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/input_Ship to different address_newOrder""))",Edge Chromium 123,,,21-04-2024 15:09:52,21-04-2024 15:09:53,0.579s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_Confirm""))",Edge Chromium 123,,,21-04-2024 15:09:53,21-04-2024 15:09:54,0.753s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_JPetStore Demo/li_Thank you, your order has been submitted""), ""Thank you, your order has been submitted."")",Edge Chromium 123,,,21-04-2024 15:09:54,21-04-2024 15:09:54,0.514s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_Sign Out""))",Edge Chromium 123,,,21-04-2024 15:09:54,21-04-2024 15:09:55,0.950s,PASSED
+closeBrowser(),Edge Chromium 123,,,21-04-2024 15:09:55,21-04-2024 15:09:56,0.802s,PASSED
