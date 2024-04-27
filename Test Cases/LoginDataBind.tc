@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LoginDataBind</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>abd5fcfb-81f6-4ed6-b443-8aa4329622ab</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>bb749c60-8638-4073-9d94-4635bbfeb1e0</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/LoginDataList</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>bb749c60-8638-4073-9d94-4635bbfeb1e0</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>username</value>
+      <variableId>79e785e6-ef98-4830-a45b-041fcf764b67</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>bb749c60-8638-4073-9d94-4635bbfeb1e0</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>password</value>
+      <variableId>3e7d11cb-b0f0-40e5-bb9f-d28d551e5305</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'mohan1'</defaultValue>
+      <description></description>
+      <id>79e785e6-ef98-4830-a45b-041fcf764b67</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'mohan1'</defaultValue>
+      <description></description>
+      <id>3e7d11cb-b0f0-40e5-bb9f-d28d551e5305</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

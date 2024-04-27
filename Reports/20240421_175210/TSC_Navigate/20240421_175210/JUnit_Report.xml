@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TSC_Navigate" time="65.463" tests="5" failures="0" errors="0">
+   <testsuite name="TS_Add_Fishes_To_Cart" tests="1" failures="0" errors="0" time="53.954" skipped="0" timestamp="21-04-2024T17:52:34" hostname="XQ612DJ - IN3086658W1.ey.net" id="Test Suites/TS_Add_Fishes_To_Cart">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\XQ612DJ\\git\\KatalonPetStoreGit\\Reports\\20240421_175210\\TS_Add_Fishes_To_Cart\\20240421_175211"/>
+         <property name="logFiles" value="C:\\Users\\XQ612DJ\\git\\KatalonPetStoreGit\\Reports\\20240421_175210\\TS_Add_Fishes_To_Cart\\20240421_175211\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="XQ612DJ - IN3086658W1.ey.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Edge Chromium 123"/>
+         <property name="hostAddress" value="192.168.29.106"/>
+         <property name="sessionId" value="5855239b4355e56174423decb97abeab"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Add_Fish_To_Cart" time="53.141" classname="Test Cases/Add_Fish_To_Cart" status="PASSED">
+         <system-out><![CDATA[21-04-2024T17:52:34 - [TEST_CASE][PASSED] - Test Cases/Add_Fish_To_Cart: Test Cases/Add_Fish_To_Cart
+
+21-04-2024T17:52:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-04-2024T17:52:37 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+21-04-2024T17:52:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-04-2024T17:52:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-04-2024T17:52:52 - [TEST_STEP][PASSED] - navigateToUrl("https://petstore.octoperf.com/"): Navigate to 'https://petstore.octoperf.com/' successfully
+
+21-04-2024T17:52:56 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/' successfully
+
+21-04-2024T17:52:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add_Fish_To_Cart/Page_JPetStore Demo/a_Enter the Store")): Object: 'Object Repository/Add_Fish_To_Cart/Page_JPetStore Demo/a_Enter the Store' is clicked on
+
+21-04-2024T17:53:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Add_Fish_To_Cart/Page_JPetStore Demo/a_Enter the Store' is clicked on
+
+21-04-2024T17:53:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add_Fish_To_Cart/Page_JPetStore Demo/img")): Object: 'Object Repository/Add_Fish_To_Cart/Page_JPetStore Demo/img' is clicked on
+
+21-04-2024T17:53:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Add_Fish_To_Cart/Page_JPetStore Demo/img' is clicked on
+
+21-04-2024T17:53:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add_Fish_To_Cart/Page_JPetStore Demo/a_FI-SW-01")): Object: 'Object Repository/Add_Fish_To_Cart/Page_JPetStore Demo/a_FI-SW-01' is clicked on
+
+21-04-2024T17:53:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Add_Fish_To_Cart/Page_JPetStore Demo/a_FI-SW-01' is clicked on
+
+21-04-2024T17:53:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add_Fish_To_Cart/Page_JPetStore Demo/a_Add to Cart")): Object: 'Object Repository/Add_Fish_To_Cart/Page_JPetStore Demo/a_Add to Cart' is clicked on
+
+21-04-2024T17:53:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Add_Fish_To_Cart/Page_JPetStore Demo/a_Add to Cart' is clicked on
+
+21-04-2024T17:53:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add_Fish_To_Cart/Page_JPetStore Demo/img")): Object: 'Object Repository/Add_Fish_To_Cart/Page_JPetStore Demo/img' is clicked on
+
+21-04-2024T17:53:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Add_Fish_To_Cart/Page_JPetStore Demo/img' is clicked on
+
+21-04-2024T17:53:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add_Fish_To_Cart/Page_JPetStore Demo/a_FI-FW-02")): Object: 'Object Repository/Add_Fish_To_Cart/Page_JPetStore Demo/a_FI-FW-02' is clicked on
+
+21-04-2024T17:53:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Add_Fish_To_Cart/Page_JPetStore Demo/a_FI-FW-02' is clicked on
+
+21-04-2024T17:53:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add_Fish_To_Cart/Page_JPetStore Demo/a_Add to Cart_1")): Object: 'Object Repository/Add_Fish_To_Cart/Page_JPetStore Demo/a_Add to Cart_1' is clicked on
+
+21-04-2024T17:53:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Add_Fish_To_Cart/Page_JPetStore Demo/a_Add to Cart_1' is clicked on
+
+21-04-2024T17:53:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-04-2024T17:53:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-04-2024T17:52:34 - [TEST_SUITE][PASSED] - TS_Add_Fishes_To_Cart: Test Cases/Add_Fish_To_Cart]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="TS_Add_Reptile_To_Cart" tests="1" failures="0" errors="0" time="46.184" skipped="0" timestamp="21-04-2024T17:52:37" hostname="XQ612DJ - IN3086658W1.ey.net" id="Test Suites/TS_Add_Reptile_To_Cart">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\XQ612DJ\\git\\KatalonPetStoreGit\\Reports\\20240421_175210\\TS_Add_Reptile_To_Cart\\20240421_175213"/>
+         <property name="logFiles" value="C:\\Users\\XQ612DJ\\git\\KatalonPetStoreGit\\Reports\\20240421_175210\\TS_Add_Reptile_To_Cart\\20240421_175213\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="XQ612DJ - IN3086658W1.ey.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Edge Chromium 123"/>
+         <property name="hostAddress" value="192.168.29.106"/>
+         <property name="sessionId" value="740d94b4a85af8042df6df73dd9f7443"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Add_Reptile_To_Cart" time="45.647" classname="Test Cases/Add_Reptile_To_Cart" status="PASSED">
+         <system-out><![CDATA[21-04-2024T17:52:37 - [TEST_CASE][PASSED] - Test Cases/Add_Reptile_To_Cart: Test Cases/Add_Reptile_To_Cart
+
+21-04-2024T17:52:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-04-2024T17:52:40 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+21-04-2024T17:52:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-04-2024T17:52:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-04-2024T17:52:57 - [TEST_STEP][PASSED] - navigateToUrl("https://petstore.octoperf.com/"): Navigate to 'https://petstore.octoperf.com/' successfully
+
+21-04-2024T17:52:58 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/' successfully
+
+21-04-2024T17:52:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add_Reptile_To_Cart/Page_JPetStore Demo/a_Enter the Store")): Object: 'Object Repository/Add_Reptile_To_Cart/Page_JPetStore Demo/a_Enter the Store' is clicked on
+
+21-04-2024T17:53:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Add_Reptile_To_Cart/Page_JPetStore Demo/a_Enter the Store' is clicked on
+
+21-04-2024T17:53:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add_Reptile_To_Cart/Page_JPetStore Demo/img")): Object: 'Object Repository/Add_Reptile_To_Cart/Page_JPetStore Demo/img' is clicked on
+
+21-04-2024T17:53:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Add_Reptile_To_Cart/Page_JPetStore Demo/img' is clicked on
+
+21-04-2024T17:53:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add_Reptile_To_Cart/Page_JPetStore Demo/a_RP-SN-01")): Object: 'Object Repository/Add_Reptile_To_Cart/Page_JPetStore Demo/a_RP-SN-01' is clicked on
+
+21-04-2024T17:53:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Add_Reptile_To_Cart/Page_JPetStore Demo/a_RP-SN-01' is clicked on
+
+21-04-2024T17:53:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add_Reptile_To_Cart/Page_JPetStore Demo/a_Add to Cart")): Object: 'Object Repository/Add_Reptile_To_Cart/Page_JPetStore Demo/a_Add to Cart' is clicked on
+
+21-04-2024T17:53:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Add_Reptile_To_Cart/Page_JPetStore Demo/a_Add to Cart' is clicked on
+
+21-04-2024T17:53:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-04-2024T17:53:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-04-2024T17:52:37 - [TEST_SUITE][PASSED] - TS_Add_Reptile_To_Cart: Test Cases/Add_Reptile_To_Cart]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="TS_Navigate" tests="1" failures="0" errors="0" time="41.671" skipped="0" timestamp="21-04-2024T17:52:46" hostname="XQ612DJ - IN3086658W1.ey.net" id="Test Suites/TS_Navigate">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\XQ612DJ\\git\\KatalonPetStoreGit\\Reports\\20240421_175210\\TS_Navigate\\20240421_175215"/>
+         <property name="logFiles" value="C:\\Users\\XQ612DJ\\git\\KatalonPetStoreGit\\Reports\\20240421_175210\\TS_Navigate\\20240421_175215\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="XQ612DJ - IN3086658W1.ey.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Edge Chromium 123"/>
+         <property name="hostAddress" value="192.168.29.106"/>
+         <property name="sessionId" value="b2f93f3ee0d13d989b9f396b17c83e6e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Navigate" time="39.747" classname="Test Cases/Navigate" status="PASSED">
+         <system-out><![CDATA[21-04-2024T17:52:48 - [TEST_CASE][PASSED] - Test Cases/Navigate: Test Cases/Navigate
+
+21-04-2024T17:52:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-04-2024T17:52:55 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+21-04-2024T17:53:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-04-2024T17:53:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-04-2024T17:53:09 - [TEST_STEP][PASSED] - navigateToUrl("https://petstore.octoperf.com/"): Navigate to 'https://petstore.octoperf.com/' successfully
+
+21-04-2024T17:53:11 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/' successfully
+
+21-04-2024T17:53:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Navigate/Page_JPetStore Demo/a_Enter the Store")): Object: 'Object Repository/Navigate/Page_JPetStore Demo/a_Enter the Store' is clicked on
+
+21-04-2024T17:53:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigate/Page_JPetStore Demo/a_Enter the Store' is clicked on
+
+21-04-2024T17:53:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Navigate/Page_JPetStore Demo/img")): Object: 'Object Repository/Navigate/Page_JPetStore Demo/img' is clicked on
+
+21-04-2024T17:53:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigate/Page_JPetStore Demo/img' is clicked on
+
+21-04-2024T17:53:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Navigate/Page_JPetStore Demo/img_1")): Object: 'Object Repository/Navigate/Page_JPetStore Demo/img_1' is clicked on
+
+21-04-2024T17:53:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigate/Page_JPetStore Demo/img_1' is clicked on
+
+21-04-2024T17:53:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Navigate/Page_JPetStore Demo/img_1_2")): Object: 'Object Repository/Navigate/Page_JPetStore Demo/img_1_2' is clicked on
+
+21-04-2024T17:53:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigate/Page_JPetStore Demo/img_1_2' is clicked on
+
+21-04-2024T17:53:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Navigate/Page_JPetStore Demo/img_1_2_3")): Object: 'Object Repository/Navigate/Page_JPetStore Demo/img_1_2_3' is clicked on
+
+21-04-2024T17:53:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigate/Page_JPetStore Demo/img_1_2_3' is clicked on
+
+21-04-2024T17:53:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Navigate/Page_JPetStore Demo/img_1_2_3_4")): Object: 'Object Repository/Navigate/Page_JPetStore Demo/img_1_2_3_4' is clicked on
+
+21-04-2024T17:53:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigate/Page_JPetStore Demo/img_1_2_3_4' is clicked on
+
+21-04-2024T17:53:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Navigate/Page_JPetStore Demo/a_Return to Main Menu")): Object: 'Object Repository/Navigate/Page_JPetStore Demo/a_Return to Main Menu' is clicked on
+
+21-04-2024T17:53:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigate/Page_JPetStore Demo/a_Return to Main Menu' is clicked on
+
+21-04-2024T17:53:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-04-2024T17:53:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-04-2024T17:52:46 - [TEST_SUITE][PASSED] - TS_Navigate: Test Cases/Navigate]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="TS_Add_Bird_To_Cart" tests="1" failures="0" errors="0" time="34.331" skipped="0" timestamp="21-04-2024T17:52:51" hostname="XQ612DJ - IN3086658W1.ey.net" id="Test Suites/TS_Add_Bird_To_Cart">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\XQ612DJ\\git\\KatalonPetStoreGit\\Reports\\20240421_175210\\TS_Add_Bird_To_Cart\\20240421_175217"/>
+         <property name="logFiles" value="C:\\Users\\XQ612DJ\\git\\KatalonPetStoreGit\\Reports\\20240421_175210\\TS_Add_Bird_To_Cart\\20240421_175217\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="XQ612DJ - IN3086658W1.ey.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Edge Chromium 123"/>
+         <property name="hostAddress" value="192.168.29.106"/>
+         <property name="sessionId" value="177fc20122390ce6d8819bc85bd560da"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Add_Bird_To_Cart" time="32.788" classname="Test Cases/Add_Bird_To_Cart" status="PASSED">
+         <system-out><![CDATA[21-04-2024T17:52:53 - [TEST_CASE][PASSED] - Test Cases/Add_Bird_To_Cart: Test Cases/Add_Bird_To_Cart
+
+21-04-2024T17:52:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-04-2024T17:52:58 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+21-04-2024T17:53:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-04-2024T17:53:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-04-2024T17:53:09 - [TEST_STEP][PASSED] - navigateToUrl("https://petstore.octoperf.com/"): Navigate to 'https://petstore.octoperf.com/' successfully
+
+21-04-2024T17:53:12 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/' successfully
+
+21-04-2024T17:53:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add_Bird_To_Cart/Page_JPetStore Demo/a_Enter the Store")): Object: 'Object Repository/Add_Bird_To_Cart/Page_JPetStore Demo/a_Enter the Store' is clicked on
+
+21-04-2024T17:53:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Add_Bird_To_Cart/Page_JPetStore Demo/a_Enter the Store' is clicked on
+
+21-04-2024T17:53:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add_Bird_To_Cart/Page_JPetStore Demo/img")): Object: 'Object Repository/Add_Bird_To_Cart/Page_JPetStore Demo/img' is clicked on
+
+21-04-2024T17:53:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Add_Bird_To_Cart/Page_JPetStore Demo/img' is clicked on
+
+21-04-2024T17:53:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add_Bird_To_Cart/Page_JPetStore Demo/a_AV-CB-01")): Object: 'Object Repository/Add_Bird_To_Cart/Page_JPetStore Demo/a_AV-CB-01' is clicked on
+
+21-04-2024T17:53:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Add_Bird_To_Cart/Page_JPetStore Demo/a_AV-CB-01' is clicked on
+
+21-04-2024T17:53:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add_Bird_To_Cart/Page_JPetStore Demo/a_Add to Cart")): Object: 'Object Repository/Add_Bird_To_Cart/Page_JPetStore Demo/a_Add to Cart' is clicked on
+
+21-04-2024T17:53:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Add_Bird_To_Cart/Page_JPetStore Demo/a_Add to Cart' is clicked on
+
+21-04-2024T17:53:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-04-2024T17:53:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-04-2024T17:52:51 - [TEST_SUITE][PASSED] - TS_Add_Bird_To_Cart: Test Cases/Add_Bird_To_Cart]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="TS_Add_Cat_To_Cart" tests="1" failures="0" errors="0" time="34.732" skipped="0" timestamp="21-04-2024T17:52:52" hostname="XQ612DJ - IN3086658W1.ey.net" id="Test Suites/TS_Add_Cat_To_Cart">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\XQ612DJ\\git\\KatalonPetStoreGit\\Reports\\20240421_175210\\TS_Add_Cat_To_Cart\\20240421_175219"/>
+         <property name="logFiles" value="C:\\Users\\XQ612DJ\\git\\KatalonPetStoreGit\\Reports\\20240421_175210\\TS_Add_Cat_To_Cart\\20240421_175219\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="XQ612DJ - IN3086658W1.ey.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Edge Chromium 123"/>
+         <property name="hostAddress" value="192.168.29.106"/>
+         <property name="sessionId" value="4ff2db06fa3e6ca2f2cb92b4fa4f9c62"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Add_Cat_To_Cart" time="32.187" classname="Test Cases/Add_Cat_To_Cart" status="PASSED">
+         <system-out><![CDATA[21-04-2024T17:52:54 - [TEST_CASE][PASSED] - Test Cases/Add_Cat_To_Cart: Test Cases/Add_Cat_To_Cart
+
+21-04-2024T17:52:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-04-2024T17:52:59 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+21-04-2024T17:53:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-04-2024T17:53:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-04-2024T17:53:16 - [TEST_STEP][PASSED] - navigateToUrl("https://petstore.octoperf.com/"): Navigate to 'https://petstore.octoperf.com/' successfully
+
+21-04-2024T17:53:18 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/' successfully
+
+21-04-2024T17:53:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add_Cat_To_Cart/Page_JPetStore Demo/a_Enter the Store")): Object: 'Object Repository/Add_Cat_To_Cart/Page_JPetStore Demo/a_Enter the Store' is clicked on
+
+21-04-2024T17:53:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Add_Cat_To_Cart/Page_JPetStore Demo/a_Enter the Store' is clicked on
+
+21-04-2024T17:53:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add_Cat_To_Cart/Page_JPetStore Demo/img")): Object: 'Object Repository/Add_Cat_To_Cart/Page_JPetStore Demo/img' is clicked on
+
+21-04-2024T17:53:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Add_Cat_To_Cart/Page_JPetStore Demo/img' is clicked on
+
+21-04-2024T17:53:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add_Cat_To_Cart/Page_JPetStore Demo/a_FL-DSH-01")): Object: 'Object Repository/Add_Cat_To_Cart/Page_JPetStore Demo/a_FL-DSH-01' is clicked on
+
+21-04-2024T17:53:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Add_Cat_To_Cart/Page_JPetStore Demo/a_FL-DSH-01' is clicked on
+
+21-04-2024T17:53:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add_Cat_To_Cart/Page_JPetStore Demo/a_Add to Cart")): Object: 'Object Repository/Add_Cat_To_Cart/Page_JPetStore Demo/a_Add to Cart' is clicked on
+
+21-04-2024T17:53:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Add_Cat_To_Cart/Page_JPetStore Demo/a_Add to Cart' is clicked on
+
+21-04-2024T17:53:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-04-2024T17:53:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-04-2024T17:52:52 - [TEST_SUITE][PASSED] - TS_Add_Cat_To_Cart: Test Cases/Add_Cat_To_Cart]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

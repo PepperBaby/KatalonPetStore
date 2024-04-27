@@ -1,0 +1,4 @@
+{"testCaseName":"Test Cases/Log","testCaseId":"Test Cases/Log","iterationVariableName":""}
+{"testCaseName":"Test Cases/LoginDataBind","testCaseId":"Test Cases/LoginDataBind","iterationVariableName":"","bindedValues":{"password":"\u0027mohan1\u0027","username":"\u0027mohan1\u0027"}}
+{"testCaseName":"Test Cases/LoginDataBind","testCaseId":"Test Cases/LoginDataBind","iterationVariableName":"","bindedValues":{"password":"\u0027mohan2\u0027","username":"\u0027mohan2\u0027"}}
+{"testCaseName":"Test Cases/LoginDataBind","testCaseId":"Test Cases/LoginDataBind","iterationVariableName":"","bindedValues":{"password":"\u0027mohan3\u0027","username":"\u0027mohan3\u0027"}}

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_Login_DataBind</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>979a8436-cb49-490b-8e4b-594b11125f2e</testSuiteGuid>
+   <testCaseLink>
+      <guid>2dabc097-1e18-4877-8393-eafb5e29e070</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Log</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4897c2d2-854e-4869-a17f-878d20aa7a93</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c6c220b1-9fb6-4e85-990b-180d5045d92b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7901e3bb-a2e1-4229-9b7f-597777180140</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>df5fb33c-897f-4d06-8f4b-18436fe03446</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/LoginDataBind</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>fca7889e-272e-4b2a-8b8e-7dbc7b8e9d5e</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/LoginDataList</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>fca7889e-272e-4b2a-8b8e-7dbc7b8e9d5e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>79e785e6-ef98-4830-a45b-041fcf764b67</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fca7889e-272e-4b2a-8b8e-7dbc7b8e9d5e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>3e7d11cb-b0f0-40e5-bb9f-d28d551e5305</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

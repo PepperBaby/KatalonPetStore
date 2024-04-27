@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Add_Reptile_To_Cart,Edge Chromium 123,,,21-04-2024 17:52:37,21-04-2024 17:53:23,46.184s,PASSED
+,,,,,,,
+Test Cases/Add_Reptile_To_Cart,Edge Chromium 123,,,21-04-2024 17:52:37,21-04-2024 17:53:23,45.647s,PASSED
+"openBrowser("""")",Edge Chromium 123,,,21-04-2024 17:52:39,21-04-2024 17:52:57,18.249s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/"")",Edge Chromium 123,,,21-04-2024 17:52:57,21-04-2024 17:52:58,1.474s,PASSED
+"click(findTestObject(""Object Repository/Add_Reptile_To_Cart/Page_JPetStore Demo/a_Enter the Store""))",Edge Chromium 123,,,21-04-2024 17:52:58,21-04-2024 17:53:02,3.507s,PASSED
+"click(findTestObject(""Object Repository/Add_Reptile_To_Cart/Page_JPetStore Demo/img""))",Edge Chromium 123,,,21-04-2024 17:53:02,21-04-2024 17:53:03,1.365s,PASSED
+"click(findTestObject(""Object Repository/Add_Reptile_To_Cart/Page_JPetStore Demo/a_RP-SN-01""))",Edge Chromium 123,,,21-04-2024 17:53:03,21-04-2024 17:53:05,1.348s,PASSED
+"click(findTestObject(""Object Repository/Add_Reptile_To_Cart/Page_JPetStore Demo/a_Add to Cart""))",Edge Chromium 123,,,21-04-2024 17:53:05,21-04-2024 17:53:06,1.613s,PASSED
+closeBrowser(),Edge Chromium 123,,,21-04-2024 17:53:06,21-04-2024 17:53:23,16.557s,PASSED

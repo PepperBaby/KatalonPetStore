@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Login_DataBind" time="40.452" tests="4" failures="0" errors="0">
+   <testsuite name="TS_Login_DataBind" tests="4" failures="0" errors="0" time="40.452" skipped="0" timestamp="27-04-2024T15:06:23" hostname="XQ612DJ - IN3086658W1.ey.net" id="Test Suites/TS_Login_DataBind">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\XQ612DJ\\git\\KatalonPetStoreGit\\Reports\\20240427_150617\\TS_Login_DataBind\\20240427_150617"/>
+         <property name="logFiles" value="C:\\Users\\XQ612DJ\\git\\KatalonPetStoreGit\\Reports\\20240427_150617\\TS_Login_DataBind\\20240427_150617\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="XQ612DJ - IN3086658W1.ey.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Edge Chromium 124"/>
+         <property name="hostAddress" value="192.168.29.106"/>
+         <property name="sessionId" value="fc3188ce745bb9065c3c0b29f8e73fe4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Log" time="11.832" classname="Test Cases/Log" status="PASSED">
+         <system-out><![CDATA[27-04-2024T15:06:23 - [TEST_CASE][PASSED] - Test Cases/Log: Test Cases/Log
+
+27-04-2024T15:06:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+27-04-2024T15:06:24 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+27-04-2024T15:06:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-04-2024T15:06:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+27-04-2024T15:06:28 - [TEST_STEP][PASSED] - navigateToUrl(BaseUrl): Navigate to 'https://petstore.octoperf.com' successfully
+
+27-04-2024T15:06:29 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com' successfully
+
+27-04-2024T15:06:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_JPetStore Demo/a_Enter the Store")): Object: 'Object Repository/Login/Page_JPetStore Demo/a_Enter the Store' is clicked on
+
+27-04-2024T15:06:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_JPetStore Demo/a_Enter the Store' is clicked on
+
+27-04-2024T15:06:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_JPetStore Demo/a_Sign In")): Object: 'Object Repository/Login/Page_JPetStore Demo/a_Sign In' is clicked on
+
+27-04-2024T15:06:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_JPetStore Demo/a_Sign In' is clicked on
+
+27-04-2024T15:06:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_JPetStore Demo/input_Need a user name and password_username"), username): Text 'mohan1' is set on object 'Object Repository/Login/Page_JPetStore Demo/input_Need a user name and password_username'
+
+27-04-2024T15:06:32 - [MESSAGE][PASSED] - Text 'mohan1' is set on object 'Object Repository/Login/Page_JPetStore Demo/input_Need a user name and password_username'
+
+27-04-2024T15:06:32 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Page_JPetStore Demo/input_Need a user name and password_username"), password): Text 'mohan1' is set on object 'Object Repository/Login/Page_JPetStore Demo/input_Need a user name and password_username'
+
+27-04-2024T15:06:32 - [MESSAGE][PASSED] - Text 'mohan1' is set on object 'Object Repository/Login/Page_JPetStore Demo/input_Need a user name and password_username'
+
+27-04-2024T15:06:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_JPetStore Demo/input_Need a user name and password_signon")): Object: 'Object Repository/Login/Page_JPetStore Demo/input_Need a user name and password_signon' is clicked on
+
+27-04-2024T15:06:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_JPetStore Demo/input_Need a user name and password_signon' is clicked on
+
+27-04-2024T15:06:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_JPetStore Demo/a_Sign Out")): Object: 'Object Repository/Login/Page_JPetStore Demo/a_Sign Out' is clicked on
+
+27-04-2024T15:06:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_JPetStore Demo/a_Sign Out' is clicked on
+
+27-04-2024T15:06:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+27-04-2024T15:06:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LoginDataBind" time="9.065" classname="Test Cases/LoginDataBind" status="PASSED">
+         <system-out><![CDATA[27-04-2024T15:06:35 - [TEST_CASE][PASSED] - Test Cases/LoginDataBind: Test Cases/LoginDataBind
+
+27-04-2024T15:06:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+27-04-2024T15:06:35 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+27-04-2024T15:06:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-04-2024T15:06:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+27-04-2024T15:06:38 - [TEST_STEP][PASSED] - navigateToUrl("https://petstore.octoperf.com/"): Navigate to 'https://petstore.octoperf.com/' successfully
+
+27-04-2024T15:06:39 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/' successfully
+
+27-04-2024T15:06:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginDataBind/Page_JPetStore Demo/a_Enter the Store")): Object: 'Object Repository/LoginDataBind/Page_JPetStore Demo/a_Enter the Store' is clicked on
+
+27-04-2024T15:06:40 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginDataBind/Page_JPetStore Demo/a_Enter the Store' is clicked on
+
+27-04-2024T15:06:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginDataBind/Page_JPetStore Demo/a_Sign In")): Object: 'Object Repository/LoginDataBind/Page_JPetStore Demo/a_Sign In' is clicked on
+
+27-04-2024T15:06:40 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginDataBind/Page_JPetStore Demo/a_Sign In' is clicked on
+
+27-04-2024T15:06:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LoginDataBind/Page_JPetStore Demo/input_Need a user name and password_username"), username): Text 'mohan1' is set on object 'Object Repository/LoginDataBind/Page_JPetStore Demo/input_Need a user name and password_username'
+
+27-04-2024T15:06:41 - [MESSAGE][PASSED] - Text 'mohan1' is set on object 'Object Repository/LoginDataBind/Page_JPetStore Demo/input_Need a user name and password_username'
+
+27-04-2024T15:06:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LoginDataBind/Page_JPetStore Demo/input_Need a user name and password_password"), password): Text 'mohan1' is set on object 'Object Repository/LoginDataBind/Page_JPetStore Demo/input_Need a user name and password_password'
+
+27-04-2024T15:06:42 - [MESSAGE][PASSED] - Text 'mohan1' is set on object 'Object Repository/LoginDataBind/Page_JPetStore Demo/input_Need a user name and password_password'
+
+27-04-2024T15:06:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginDataBind/Page_JPetStore Demo/input_Need a user name and password_signon")): Object: 'Object Repository/LoginDataBind/Page_JPetStore Demo/input_Need a user name and password_signon' is clicked on
+
+27-04-2024T15:06:43 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginDataBind/Page_JPetStore Demo/input_Need a user name and password_signon' is clicked on
+
+27-04-2024T15:06:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginDataBind/Page_JPetStore Demo/a_Sign Out")): Object: 'Object Repository/LoginDataBind/Page_JPetStore Demo/a_Sign Out' is clicked on
+
+27-04-2024T15:06:44 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginDataBind/Page_JPetStore Demo/a_Sign Out' is clicked on
+
+27-04-2024T15:06:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+27-04-2024T15:06:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LoginDataBind" time="10.045" classname="Test Cases/LoginDataBind" status="PASSED">
+         <system-out><![CDATA[27-04-2024T15:06:44 - [TEST_CASE][PASSED] - Test Cases/LoginDataBind: Test Cases/LoginDataBind
+
+27-04-2024T15:06:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+27-04-2024T15:06:44 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+27-04-2024T15:06:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-04-2024T15:06:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+27-04-2024T15:06:47 - [TEST_STEP][PASSED] - navigateToUrl("https://petstore.octoperf.com/"): Navigate to 'https://petstore.octoperf.com/' successfully
+
+27-04-2024T15:06:48 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/' successfully
+
+27-04-2024T15:06:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginDataBind/Page_JPetStore Demo/a_Enter the Store")): Object: 'Object Repository/LoginDataBind/Page_JPetStore Demo/a_Enter the Store' is clicked on
+
+27-04-2024T15:06:50 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginDataBind/Page_JPetStore Demo/a_Enter the Store' is clicked on
+
+27-04-2024T15:06:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginDataBind/Page_JPetStore Demo/a_Sign In")): Object: 'Object Repository/LoginDataBind/Page_JPetStore Demo/a_Sign In' is clicked on
+
+27-04-2024T15:06:50 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginDataBind/Page_JPetStore Demo/a_Sign In' is clicked on
+
+27-04-2024T15:06:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LoginDataBind/Page_JPetStore Demo/input_Need a user name and password_username"), username): Text 'mohan2' is set on object 'Object Repository/LoginDataBind/Page_JPetStore Demo/input_Need a user name and password_username'
+
+27-04-2024T15:06:51 - [MESSAGE][PASSED] - Text 'mohan2' is set on object 'Object Repository/LoginDataBind/Page_JPetStore Demo/input_Need a user name and password_username'
+
+27-04-2024T15:06:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LoginDataBind/Page_JPetStore Demo/input_Need a user name and password_password"), password): Text 'mohan2' is set on object 'Object Repository/LoginDataBind/Page_JPetStore Demo/input_Need a user name and password_password'
+
+27-04-2024T15:06:52 - [MESSAGE][PASSED] - Text 'mohan2' is set on object 'Object Repository/LoginDataBind/Page_JPetStore Demo/input_Need a user name and password_password'
+
+27-04-2024T15:06:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginDataBind/Page_JPetStore Demo/input_Need a user name and password_signon")): Object: 'Object Repository/LoginDataBind/Page_JPetStore Demo/input_Need a user name and password_signon' is clicked on
+
+27-04-2024T15:06:53 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginDataBind/Page_JPetStore Demo/input_Need a user name and password_signon' is clicked on
+
+27-04-2024T15:06:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginDataBind/Page_JPetStore Demo/a_Sign Out")): Object: 'Object Repository/LoginDataBind/Page_JPetStore Demo/a_Sign Out' is clicked on
+
+27-04-2024T15:06:54 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginDataBind/Page_JPetStore Demo/a_Sign Out' is clicked on
+
+27-04-2024T15:06:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+27-04-2024T15:06:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LoginDataBind" time="9.02" classname="Test Cases/LoginDataBind" status="PASSED">
+         <system-out><![CDATA[27-04-2024T15:06:54 - [TEST_CASE][PASSED] - Test Cases/LoginDataBind: Test Cases/LoginDataBind
+
+27-04-2024T15:06:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+27-04-2024T15:06:54 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+27-04-2024T15:06:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-04-2024T15:06:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+27-04-2024T15:06:57 - [TEST_STEP][PASSED] - navigateToUrl("https://petstore.octoperf.com/"): Navigate to 'https://petstore.octoperf.com/' successfully
+
+27-04-2024T15:06:58 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/' successfully
+
+27-04-2024T15:06:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginDataBind/Page_JPetStore Demo/a_Enter the Store")): Object: 'Object Repository/LoginDataBind/Page_JPetStore Demo/a_Enter the Store' is clicked on
+
+27-04-2024T15:06:59 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginDataBind/Page_JPetStore Demo/a_Enter the Store' is clicked on
+
+27-04-2024T15:06:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginDataBind/Page_JPetStore Demo/a_Sign In")): Object: 'Object Repository/LoginDataBind/Page_JPetStore Demo/a_Sign In' is clicked on
+
+27-04-2024T15:07:00 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginDataBind/Page_JPetStore Demo/a_Sign In' is clicked on
+
+27-04-2024T15:07:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LoginDataBind/Page_JPetStore Demo/input_Need a user name and password_username"), username): Text 'mohan3' is set on object 'Object Repository/LoginDataBind/Page_JPetStore Demo/input_Need a user name and password_username'
+
+27-04-2024T15:07:00 - [MESSAGE][PASSED] - Text 'mohan3' is set on object 'Object Repository/LoginDataBind/Page_JPetStore Demo/input_Need a user name and password_username'
+
+27-04-2024T15:07:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LoginDataBind/Page_JPetStore Demo/input_Need a user name and password_password"), password): Text 'mohan3' is set on object 'Object Repository/LoginDataBind/Page_JPetStore Demo/input_Need a user name and password_password'
+
+27-04-2024T15:07:01 - [MESSAGE][PASSED] - Text 'mohan3' is set on object 'Object Repository/LoginDataBind/Page_JPetStore Demo/input_Need a user name and password_password'
+
+27-04-2024T15:07:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginDataBind/Page_JPetStore Demo/input_Need a user name and password_signon")): Object: 'Object Repository/LoginDataBind/Page_JPetStore Demo/input_Need a user name and password_signon' is clicked on
+
+27-04-2024T15:07:02 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginDataBind/Page_JPetStore Demo/input_Need a user name and password_signon' is clicked on
+
+27-04-2024T15:07:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginDataBind/Page_JPetStore Demo/a_Sign Out")): Object: 'Object Repository/LoginDataBind/Page_JPetStore Demo/a_Sign Out' is clicked on
+
+27-04-2024T15:07:03 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginDataBind/Page_JPetStore Demo/a_Sign Out' is clicked on
+
+27-04-2024T15:07:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+27-04-2024T15:07:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[27-04-2024T15:06:23 - [TEST_SUITE][PASSED] - TS_Login_DataBind: Test Cases/LoginDataBind]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
