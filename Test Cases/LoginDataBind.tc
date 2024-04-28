@@ -14,8 +14,17 @@
       </iterationEntity>
       <testDataId>Data Files/LoginDataList</testDataId>
    </testDataLinks>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>b2e828c1-c415-4513-9234-f298863d05e6</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/New Test Data</testDataId>
+   </testDataLinks>
    <variableLinks>
-      <testDataLinkId>bb749c60-8638-4073-9d94-4635bbfeb1e0</testDataLinkId>
+      <testDataLinkId>b2e828c1-c415-4513-9234-f298863d05e6</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>username</value>
       <variableId>79e785e6-ef98-4830-a45b-041fcf764b67</variableId>
