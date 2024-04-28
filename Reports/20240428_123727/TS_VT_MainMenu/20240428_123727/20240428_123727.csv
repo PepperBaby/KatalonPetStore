@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_VT_MainMenu,Edge Chromium 124,,,28-04-2024 12:37:42,28-04-2024 12:37:59,16.458s,PASSED
+,,,,,,,
+Test Cases/VT_MainMenu,Edge Chromium 124,,,28-04-2024 12:37:43,28-04-2024 12:37:59,16.052s,PASSED
+"openBrowser("""")",Edge Chromium 124,,,28-04-2024 12:37:43,28-04-2024 12:37:50,7.014s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/"")",Edge Chromium 124,,,28-04-2024 12:37:50,28-04-2024 12:37:52,2.197s,PASSED
+"click(findTestObject(""Object Repository/VT_MainMenu/Page_JPetStore Demo/a_Enter the Store""))",Edge Chromium 124,,,28-04-2024 12:37:53,28-04-2024 12:37:55,2.804s,PASSED
+"takeScreenshotAsCheckpoint(""mypic"")",Edge Chromium 124,,,28-04-2024 12:37:55,28-04-2024 12:37:57,1.829s,PASSED
+"click(findTestObject(""Object Repository/VT_MainMenu/Page_JPetStore Demo/a_Sign In""))",Edge Chromium 124,,,28-04-2024 12:37:57,28-04-2024 12:37:58,0.912s,PASSED
+closeBrowser(),Edge Chromium 124,,,28-04-2024 12:37:58,28-04-2024 12:37:59,0.741s,PASSED
