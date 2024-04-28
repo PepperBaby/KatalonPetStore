@@ -27,7 +27,7 @@ WebUI.click(findTestObject('Object Repository/VT_ReturnMainMenu/Page_JPetStore D
 
 WebUI.click(findTestObject('Object Repository/VT_ReturnMainMenu/Page_JPetStore Demo/a_Return to Main Menu'))
 
-WebUI.takeScreenshotAsCheckpoint('mypic2')
+WebUI.takeScreenshotAsCheckpoint('mypic')
 
 WebUI.click(findTestObject('Object Repository/VT_ReturnMainMenu/Page_JPetStore Demo/a_Sign In'))
 
